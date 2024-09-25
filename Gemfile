@@ -46,7 +46,7 @@ gem "bootsnap", require: false
 
 # http utility gems
 gem 'faraday'
-gem 'faraday_middleware', '1.2.1' # https://github.com/lostisland/faraday_middleware/pull/288#issuecomment-2370934285
+gem 'faraday_middleware', '1.2.0' # https://github.com/lostisland/faraday_middleware/pull/288#issuecomment-2370934285
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
