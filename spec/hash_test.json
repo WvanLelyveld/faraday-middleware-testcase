@@ -1,0 +1,57 @@
+{
+  "resultCode": 12000,
+  "balances": [
+    {
+      "amount": 100.0,
+      "currency": "GHS"
+    },
+    {
+      "amount": 1000.0,
+      "currency": "ZAR"
+    },
+    {
+      "amount": 1211.0,
+      "currency": "KES"
+    },
+    {
+      "amount": 117520.929493,
+      "currency": "USD"
+    },
+    {
+      "amount": 9999590644.1765,
+      "currency": "JPY"
+    },
+    {
+      "amount": 98630.042368,
+      "currency": "CAD"
+    },
+    {
+      "amount": 9090.0,
+      "currency": "NGN"
+    },
+    {
+      "amount": 3000.0,
+      "currency": "RUB"
+    },
+    {
+      "amount": 105690.21626,
+      "currency": "EUR"
+    },
+    {
+      "amount": 600670.5,
+      "currency": "INR"
+    },
+    {
+      "amount": 97625.0,
+      "currency": "AUD"
+    },
+    {
+      "amount": 2800.0,
+      "currency": "CNY"
+    },
+    {
+      "amount": 7872.231312,
+      "currency": "GBP"
+    }
+  ]
+}
