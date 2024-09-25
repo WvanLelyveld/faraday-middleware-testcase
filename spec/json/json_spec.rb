@@ -6,11 +6,7 @@ describe 'Json' do
 
   it 'gets the list of credits' do
     WebMock.stub_request(:get, "http://example.com/test_endpoint").to_return(status: 200, body: credit_list)
-
-    debugger
-
     response = make_request.body
-
     expect( response.dig('resultCode') ).to eq 12000
     expect( response.dig('balances').size ).to eq 13
   end
@@ -25,13 +21,8 @@ describe 'Json' do
 
   def connection
     Faraday.new('http://example.com') do |f|
-      # f.adapter Faraday.default_adapter
       f.request :json
       f.response :json
-      # if Rails.env.development?
-      #   f.use Faraday::Response::Logger, ::Logger.new($stdout), headers: { request: true, response: true },
-      #                                                           bodies:  { request: true, response: true }
-      # end
     end
   end
 end
